@@ -4,6 +4,8 @@ import os
 from zipfile import ZipFile
 from urllib.request import urlretrieve
 
+# This code is written by A.S Chirag through OpenCV Bootcamp
+
 def download_and_unzip(url ,save_path):
     print(f"Downloading and Extrating Assests....")
     urlretrieve(url, save_path)
